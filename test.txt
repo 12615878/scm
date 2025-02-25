@@ -1,0 +1,4 @@
+1.  ls = list of files
+2.  time = it shows the time of the system
+3.  mkdir (file name) = to create a file
+    ls = checking of the created file
