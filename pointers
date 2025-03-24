@@ -1,0 +1,15 @@
+//Here is a program to declare a double pointer and print the addresses stored at both levels:
+#include<stdio.h>
+
+int main() {
+    int value = 42;         
+    int *ptr = &value;      
+    int **doublePtr = &ptr;  
+
+    
+    printf("Address of value: %p\n", &value);         
+    printf("Address stored in ptr: %p\n", ptr);       
+    printf("Address of ptr: %p\n", &ptr);            
+    printf("Address stored in doublePtr: %p\n", doublePtr); 
+    return 0;
+}
