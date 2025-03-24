@@ -5,8 +5,6 @@ int main() {
     int value = 42;         
     int *ptr = &value;      
     int **doublePtr = &ptr;  
-
-    
     printf("Address of value: %p\n", &value);         
     printf("Address stored in ptr: %p\n", ptr);       
     printf("Address of ptr: %p\n", &ptr);            
