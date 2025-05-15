@@ -6,4 +6,9 @@ cd “file name” – to get inside the file
 vi test.txt – new text file in folder.  Press I to insert text(enable edi ng text file) 
 :wq – save and quit 
 Cat test.txt “file name” – to display content inside the file 
-Vi test.txt “file name” – to edit file again
+Vi test.txt “file name” – to edit file agaiLs -ah – to see hidden files and folders 
+Git init – to convert a file into repository 
+Git status – current state of your working directory 
+Git add “file name” – to move to staging area 
+Git rm –catched “file name” – to go back working directory 
+Git commit – to commit changesn
